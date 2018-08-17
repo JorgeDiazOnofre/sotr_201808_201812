@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+        char src[40];
+        char dest[100];
+        int numero;
+
+
+
+        memset(dest, '\0', sizeof(dest));
+        strcpy(src, "Jorge Luis Diaz Onofre");
+        strcpy(dest, src);
+        numero=2015640097;
+
+
+
+
+        printf(dest);
+        printf("Numero de boleta %i",numero);
+
+
+        return(0);
+}

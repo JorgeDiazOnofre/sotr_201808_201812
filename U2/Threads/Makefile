@@ -1,10 +1,10 @@
 C=gcc
 CFLAGS=-lpthread
 
-all:thrdcreat
+all:dekker2POSI
 
 
-thrdcreat:thrdcreat.c
+thrdcreat:dekker2POSI.c
 		$(CC) $^ -o $@ $(CFLAGS)
 
 clean:
